@@ -6,8 +6,9 @@ def calculateTime():
 
     # end assignment
 
-## if you want to test locally before you try to sync
-## uncomment calculateTime() and run > python monkeyCalculator.py
-## ***IMPORTANT*** please recomment before you submit/sync your assignment.
-## OR YOUR TEST WILL NOT RUN
-# calculateTime()
+
+## If you want to test locally run > python monkeyCalculator.py
+
+if __name__ == "__main__":
+    calculateTime()
+    
